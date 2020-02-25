@@ -1,0 +1,35 @@
+/*Here I center aligned all elements on the page*/
+* {
+    text-align: center;
+}
+
+/*Here I aligned some specific elements on the page to the left*/
+h3,
+h4,
+h5,
+ul,
+li {
+    text-align: left;
+}
+
+/*Here I have added some basic styling to my table*/
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+    border-spacing: 15px;
+}
+
+/*I added some styling to the body, although I like fancy I wanted to have subtleness so the colors in the pictures, videos and text pop*/
+/*I also added a background image that appears in the middle of the page, however it does not show on mobile*/
+body {
+    background-color: rgb(233, 192, 146);
+    background-image: url("https://i.pinimg.com/originals/32/1f/79/321f79ae8995ad19fbcd30bdcfdf8fd8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+    background-attachment: scroll;
+}
